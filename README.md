@@ -1,24 +1,26 @@
-Little World
+Maya Land
 ============
+
+Built off of engine by xpac27 (https://github.com/xpac27/LittleWorld/)
 
 ![LittleWorld Preview](https://github.com/xpac27/LittleWorld/raw/master/design/littleWorld_preview.png)
 
-This program is supposed to be able to compile and run on MacOSX, Linux and PC (I only tested MacOSX for now).
+This program is supposed to be able to compile and run on MacOSX, Linux and PC (I only tested Linux for now).
 Project is under development so do not expect impressive features ;)
 
 
 REQUIRED:
 ---------
-* any c++ compiler (just install xcode if you are on mac)
-* GLUT and OpenGL c++ library (just install xcode if you are on mac)
-* SFML 1.6 c++ library (http://www.sfml-dev.org/tutorials/1.6/)
+* any C++ compiler 
+* GLUT and OpenGL c++ library
+* SFML 2.4.2 C++ library (http://www.sfml-dev.org/tutorials)
 
 
 INSTALLING:
 -----------
-* Clone the LittleWorld project
+* Clone the MayaLand project
 * Type "make" to build the game
-* Type "./build/littleWorld" to start the game
+* Type "./MayaLand" to start the game
 
 
 VERSION HISTORY:
@@ -30,5 +32,3 @@ VERSION HISTORY:
 
 NOTES:
 ------
-* If the game do not compile because of some errors in the code reset the history to a stable revision (git reset --hard v0.3) then try again.
-
