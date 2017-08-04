@@ -1,0 +1,3 @@
+/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles/rebuild_cache.dir
+/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles/edit_cache.dir
+/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles/MayaLand.dir

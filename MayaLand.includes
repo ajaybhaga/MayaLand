@@ -1,0 +1,9 @@
+src/ai
+src/game
+src/graphics
+src/math
+src/resources
+src/scene
+src/scene/object
+src/scene/object/dynamicObject
+src/scene/object/staticObject
