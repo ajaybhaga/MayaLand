@@ -2,13 +2,14 @@
 
 using namespace std;
 
-Player::Player(World *W) : DynamicObject(W, 64.f, true)
+Player::Player(World *W) : DynamicObject(W, 30.f, true)
 {
     speed = 200.f;
 
+    Object::setDynamicGenerate();
+
     position.x = 512.f;
     position.z = 512.f;
-
     setSize(64.f);
 }
 
@@ -21,8 +22,8 @@ void Player::onNotify(unsigned const int type)
 }
 
 void Player::draw()
-{
-    glColor4f(1.f, 0.8f, 0.f, 1.f);
+{    
+    glColor4f(Object::getR(), Object::getG(), Object::getB(), 1.f);
 
     Object::draw();
 }
@@ -31,4 +32,3 @@ void Player::update(float time)
 {
     move(time);
 }
-

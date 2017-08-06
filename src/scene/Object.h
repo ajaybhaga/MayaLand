@@ -21,6 +21,8 @@ class Object
         virtual void draw();
         virtual void drawOutline();
 
+        void setDynamicGenerate();
+        void generateColour();
         void setSize(float s);
         void setPosition(float x, float y, float z);
         void updateShadows(Light *l);
@@ -32,8 +34,11 @@ class Object
         float getY();
         float getZ();
         float getHeight();
-        float getSize();
+        float getSize();       
 
+        float getR();
+        float getG();
+        float getB();
 
     protected:
 
@@ -45,6 +50,7 @@ class Object
     private:
 
         bool shadow;
+        bool dynamicGenerate;
 
         float height;
         float size;
@@ -52,6 +58,8 @@ class Object
         Point p1, p2, p3, p4, p5, p6, p7, p8;
 
         Polygon shape;
+
+        float r, g, b; // Object colour
 };
 
 #endif

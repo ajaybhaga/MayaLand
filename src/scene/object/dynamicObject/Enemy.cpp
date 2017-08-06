@@ -5,13 +5,14 @@ using namespace std;
 Enemy::Enemy(World *W) : DynamicObject(W, 32.f, true)
 {
     speed = 120.f;
+    Object::setDynamicGenerate();
 
     setSize(32.f);
 }
 
 void Enemy::draw()
-{
-    glColor4f(1.f, 0.f, 0.f, 1.f);
+{    
+    glColor4f(Object::getR(), Object::getG(), Object::getB(), 1.f);
 
     Object::draw();
 }
@@ -29,6 +30,14 @@ int random(int min, int max) //range : [min, max)
 
 void Enemy::update(float time)
 {
+    static float pastTime = 0;
+
+    if (pastTime > 4.0) {
+        std::cout << "Generating colour time=" << time << " pastTime=" << pastTime << std::endl;
+        generateColour();
+        pastTime = 0.0;
+    }
+
     if (!isCanMove() && (rand() % 50) == 0)
     {
         setPath
@@ -38,5 +47,6 @@ void Enemy::update(float time)
         );
     }
     move(time);
-}
 
+    pastTime += time;
+}

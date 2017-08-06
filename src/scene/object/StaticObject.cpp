@@ -3,6 +3,10 @@
 StaticObject::StaticObject(World *W, float h, bool w, bool s) : Object(W, h, s)
 {
     walkable = w;
+
+    if (!walkable) {
+        Object::setDynamicGenerate();
+    }
 }
 
 int StaticObject::getGridX()

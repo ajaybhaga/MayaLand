@@ -17,9 +17,20 @@ void Tile::draw()
     }
     else
     {
-        glColor4f(0.4f, 0.4f, 0.4f, 1.f);
+        //glColor4f(0.4f, 0.4f, 0.4f, 1.f);
+        glColor4f(Object::getR(), Object::getG(), Object::getB(), 1.f);
     }
 
     Object::draw();
 }
 
+void Tile::generateColour() {
+    int n;
+    // Generate colour
+    n = rand () % 10;
+    r = n * 0.1f;
+    n = rand () % 10;
+    g = n * 0.1f;
+    n = rand () % 10;
+    b = n * 0.1f;
+}

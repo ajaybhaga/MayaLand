@@ -4,11 +4,16 @@ using namespace std;
 
 Object::Object(World *W, float h, bool s) : world(W), height(h), shadow(s)
 {
-    setSize(32.f);
+    setSize(8.f);
+    dynamicGenerate = false;
 }
 
 void Object::init()
 {
+}
+
+void Object::setDynamicGenerate() {
+    dynamicGenerate = true;
 }
 
 void Object::setSize(float s)
@@ -24,14 +29,19 @@ void Object::setSize(float s)
     p3 = Point( alfSize, height,  alfSize);
     p4 = Point(-alfSize, height,  alfSize);
 
+    if (dynamicGenerate) {
+        generateColour();
+        p1.y = 0.0f + (rand() % 200);
+        p2.y = 0.0f + (rand() % 200);
+        p3.y = 0.0f + (rand() % 200);
+        p4.y = 0.0f + (rand() % 200);
+    }
+
     // FACE TOP
     shape.addTriangle(&p1, &p2, &p3);
-    //Point p4e = Point(p4);
-    Point p4e = Point(-alfSize, height,  alfSize);
-    //p4e.y = rand() % 5;
-    std::cout << "p4e.y=" << p4e.y << std::endl;
-
     shape.addTriangle(&p3, &p4, &p1);
+    //std::cout << "p4e.y=" << p4e.y << std::endl;
+
     //shape.addTriangle(&p3, &p4, &p1);
 
     if (height > 0.f)
@@ -79,7 +89,9 @@ void Object::draw()
 
 void Object::drawOutline()
 {
-    glColor4f(1.f, 1.f, 1.f, 0.02);
+    //glColor4f(1.f, 1.f, 1.f, 0.02);
+
+    glColor4f(0.f, 0.f, 0.f, 0.08);
 
     shape.drawOutline();
 }
@@ -122,8 +134,34 @@ float Object::getSize()
     return size;
 }
 
+float Object::getR()
+{
+    return r;
+}
+
+float Object::getG()
+{
+    return g;
+}
+
+float Object::getB()
+{
+    return b;
+}
+
 bool Object::shadowEnabled()
 {
     return shadow;
 }
 
+void Object::generateColour()
+{
+    int n;
+    // Generate colour
+    n = rand () % 10;
+    r = n * 0.1f;
+    n = rand () % 10;
+    g = n * 0.1f;
+    n = rand () % 10;
+    b = n * 0.1f;
+}

@@ -29,6 +29,7 @@ void Polygon::draw()
 
 void Polygon::drawOutline()
 {
+    glLineWidth(0.8);
     glBegin(GL_LINE_LOOP);
     for (unsigned int i = 0; i < triangles.size(); i ++)
     {

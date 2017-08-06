@@ -18,8 +18,7 @@ class Player : public DynamicObject
 
 
     private:
-
-        void onMouseLeftDown();
+        void onMouseLeftDown();       
 };
 
 #endif
