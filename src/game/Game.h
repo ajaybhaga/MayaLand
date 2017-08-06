@@ -3,6 +3,7 @@
 
 #include "../scene/World.h"
 #include "../scene/Light.h"
+#include "../scene/object/dynamicObject/Cursor.h"
 #include "../scene/object/dynamicObject/Player.h"
 #include "../scene/object/dynamicObject/Enemy.h"
 #include "../scene/object/staticObject/Tile.h"

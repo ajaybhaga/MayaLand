@@ -15,6 +15,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/MayaLand.dir/src/scene/World.cpp.o"
   "CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.o"
   "CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o"
+  "CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o"
   "CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.o"
   "CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.o"
   "CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.o"

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bhagabot/dev/git/MayaLand/Engine
+CMAKE_SOURCE_DIR = /home/bhagabot/dev/git/MayaLand
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bhagabot/dev/git/MayaLand/Engine
+CMAKE_BINARY_DIR = /home/bhagabot/dev/git/MayaLand
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MayaLand.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/MayaLand.dir/flags.make
 
 CMakeFiles/MayaLand.dir/src/ai/Block.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/ai/Block.cpp.o: src/ai/Block.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MayaLand.dir/src/ai/Block.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/ai/Block.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/ai/Block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MayaLand.dir/src/ai/Block.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/ai/Block.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/ai/Block.cpp
 
 CMakeFiles/MayaLand.dir/src/ai/Block.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/ai/Block.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/ai/Block.cpp > CMakeFiles/MayaLand.dir/src/ai/Block.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/ai/Block.cpp > CMakeFiles/MayaLand.dir/src/ai/Block.cpp.i
 
 CMakeFiles/MayaLand.dir/src/ai/Block.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/ai/Block.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/ai/Block.cpp -o CMakeFiles/MayaLand.dir/src/ai/Block.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/ai/Block.cpp -o CMakeFiles/MayaLand.dir/src/ai/Block.cpp.s
 
 CMakeFiles/MayaLand.dir/src/ai/Block.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/MayaLand.dir/src/ai/Block.cpp.o.provides.build: CMakeFiles/MayaLand.d
 
 CMakeFiles/MayaLand.dir/src/ai/Pathfinder.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/ai/Pathfinder.cpp.o: src/ai/Pathfinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MayaLand.dir/src/ai/Pathfinder.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/ai/Pathfinder.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/ai/Pathfinder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MayaLand.dir/src/ai/Pathfinder.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/ai/Pathfinder.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/ai/Pathfinder.cpp
 
 CMakeFiles/MayaLand.dir/src/ai/Pathfinder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/ai/Pathfinder.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/ai/Pathfinder.cpp > CMakeFiles/MayaLand.dir/src/ai/Pathfinder.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/ai/Pathfinder.cpp > CMakeFiles/MayaLand.dir/src/ai/Pathfinder.cpp.i
 
 CMakeFiles/MayaLand.dir/src/ai/Pathfinder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/ai/Pathfinder.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/ai/Pathfinder.cpp -o CMakeFiles/MayaLand.dir/src/ai/Pathfinder.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/ai/Pathfinder.cpp -o CMakeFiles/MayaLand.dir/src/ai/Pathfinder.cpp.s
 
 CMakeFiles/MayaLand.dir/src/ai/Pathfinder.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/MayaLand.dir/src/ai/Pathfinder.cpp.o.provides.build: CMakeFiles/MayaL
 
 CMakeFiles/MayaLand.dir/src/game/Game.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/game/Game.cpp.o: src/game/Game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MayaLand.dir/src/game/Game.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/game/Game.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/game/Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MayaLand.dir/src/game/Game.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/game/Game.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/game/Game.cpp
 
 CMakeFiles/MayaLand.dir/src/game/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/game/Game.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/game/Game.cpp > CMakeFiles/MayaLand.dir/src/game/Game.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/game/Game.cpp > CMakeFiles/MayaLand.dir/src/game/Game.cpp.i
 
 CMakeFiles/MayaLand.dir/src/game/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/game/Game.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/game/Game.cpp -o CMakeFiles/MayaLand.dir/src/game/Game.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/game/Game.cpp -o CMakeFiles/MayaLand.dir/src/game/Game.cpp.s
 
 CMakeFiles/MayaLand.dir/src/game/Game.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/MayaLand.dir/src/game/Game.cpp.o.provides.build: CMakeFiles/MayaLand.
 
 CMakeFiles/MayaLand.dir/src/graphics/Point.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/graphics/Point.cpp.o: src/graphics/Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MayaLand.dir/src/graphics/Point.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/graphics/Point.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MayaLand.dir/src/graphics/Point.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/graphics/Point.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/graphics/Point.cpp
 
 CMakeFiles/MayaLand.dir/src/graphics/Point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/graphics/Point.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Point.cpp > CMakeFiles/MayaLand.dir/src/graphics/Point.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/graphics/Point.cpp > CMakeFiles/MayaLand.dir/src/graphics/Point.cpp.i
 
 CMakeFiles/MayaLand.dir/src/graphics/Point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/graphics/Point.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Point.cpp -o CMakeFiles/MayaLand.dir/src/graphics/Point.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/graphics/Point.cpp -o CMakeFiles/MayaLand.dir/src/graphics/Point.cpp.s
 
 CMakeFiles/MayaLand.dir/src/graphics/Point.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/MayaLand.dir/src/graphics/Point.cpp.o.provides.build: CMakeFiles/Maya
 
 CMakeFiles/MayaLand.dir/src/graphics/Polygon.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/graphics/Polygon.cpp.o: src/graphics/Polygon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MayaLand.dir/src/graphics/Polygon.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/graphics/Polygon.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Polygon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MayaLand.dir/src/graphics/Polygon.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/graphics/Polygon.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/graphics/Polygon.cpp
 
 CMakeFiles/MayaLand.dir/src/graphics/Polygon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/graphics/Polygon.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Polygon.cpp > CMakeFiles/MayaLand.dir/src/graphics/Polygon.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/graphics/Polygon.cpp > CMakeFiles/MayaLand.dir/src/graphics/Polygon.cpp.i
 
 CMakeFiles/MayaLand.dir/src/graphics/Polygon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/graphics/Polygon.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Polygon.cpp -o CMakeFiles/MayaLand.dir/src/graphics/Polygon.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/graphics/Polygon.cpp -o CMakeFiles/MayaLand.dir/src/graphics/Polygon.cpp.s
 
 CMakeFiles/MayaLand.dir/src/graphics/Polygon.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/MayaLand.dir/src/graphics/Polygon.cpp.o.provides.build: CMakeFiles/Ma
 
 CMakeFiles/MayaLand.dir/src/graphics/Triangle.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/graphics/Triangle.cpp.o: src/graphics/Triangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MayaLand.dir/src/graphics/Triangle.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/graphics/Triangle.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Triangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MayaLand.dir/src/graphics/Triangle.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/graphics/Triangle.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/graphics/Triangle.cpp
 
 CMakeFiles/MayaLand.dir/src/graphics/Triangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/graphics/Triangle.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Triangle.cpp > CMakeFiles/MayaLand.dir/src/graphics/Triangle.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/graphics/Triangle.cpp > CMakeFiles/MayaLand.dir/src/graphics/Triangle.cpp.i
 
 CMakeFiles/MayaLand.dir/src/graphics/Triangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/graphics/Triangle.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Triangle.cpp -o CMakeFiles/MayaLand.dir/src/graphics/Triangle.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/graphics/Triangle.cpp -o CMakeFiles/MayaLand.dir/src/graphics/Triangle.cpp.s
 
 CMakeFiles/MayaLand.dir/src/graphics/Triangle.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/MayaLand.dir/src/graphics/Triangle.cpp.o.provides.build: CMakeFiles/M
 
 CMakeFiles/MayaLand.dir/src/main.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MayaLand.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/main.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MayaLand.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/main.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/main.cpp
 
 CMakeFiles/MayaLand.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/main.cpp > CMakeFiles/MayaLand.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/main.cpp > CMakeFiles/MayaLand.dir/src/main.cpp.i
 
 CMakeFiles/MayaLand.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/main.cpp -o CMakeFiles/MayaLand.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/main.cpp -o CMakeFiles/MayaLand.dir/src/main.cpp.s
 
 CMakeFiles/MayaLand.dir/src/main.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/MayaLand.dir/src/main.cpp.o.provides.build: CMakeFiles/MayaLand.dir/s
 
 CMakeFiles/MayaLand.dir/src/math/Vector3.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/math/Vector3.cpp.o: src/math/Vector3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MayaLand.dir/src/math/Vector3.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/math/Vector3.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MayaLand.dir/src/math/Vector3.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/math/Vector3.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/math/Vector3.cpp
 
 CMakeFiles/MayaLand.dir/src/math/Vector3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/math/Vector3.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3.cpp > CMakeFiles/MayaLand.dir/src/math/Vector3.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/math/Vector3.cpp > CMakeFiles/MayaLand.dir/src/math/Vector3.cpp.i
 
 CMakeFiles/MayaLand.dir/src/math/Vector3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/math/Vector3.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3.cpp -o CMakeFiles/MayaLand.dir/src/math/Vector3.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/math/Vector3.cpp -o CMakeFiles/MayaLand.dir/src/math/Vector3.cpp.s
 
 CMakeFiles/MayaLand.dir/src/math/Vector3.cpp.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/MayaLand.dir/src/math/Vector3.cpp.o.provides.build: CMakeFiles/MayaLa
 
 CMakeFiles/MayaLand.dir/src/math/Vector3Util.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/math/Vector3Util.cpp.o: src/math/Vector3Util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MayaLand.dir/src/math/Vector3Util.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/math/Vector3Util.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3Util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MayaLand.dir/src/math/Vector3Util.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/math/Vector3Util.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/math/Vector3Util.cpp
 
 CMakeFiles/MayaLand.dir/src/math/Vector3Util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/math/Vector3Util.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3Util.cpp > CMakeFiles/MayaLand.dir/src/math/Vector3Util.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/math/Vector3Util.cpp > CMakeFiles/MayaLand.dir/src/math/Vector3Util.cpp.i
 
 CMakeFiles/MayaLand.dir/src/math/Vector3Util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/math/Vector3Util.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3Util.cpp -o CMakeFiles/MayaLand.dir/src/math/Vector3Util.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/math/Vector3Util.cpp -o CMakeFiles/MayaLand.dir/src/math/Vector3Util.cpp.s
 
 CMakeFiles/MayaLand.dir/src/math/Vector3Util.cpp.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/MayaLand.dir/src/math/Vector3Util.cpp.o.provides.build: CMakeFiles/Ma
 
 CMakeFiles/MayaLand.dir/src/resources/Conf.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/resources/Conf.cpp.o: src/resources/Conf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MayaLand.dir/src/resources/Conf.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/resources/Conf.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/resources/Conf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MayaLand.dir/src/resources/Conf.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/resources/Conf.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/resources/Conf.cpp
 
 CMakeFiles/MayaLand.dir/src/resources/Conf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/resources/Conf.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/resources/Conf.cpp > CMakeFiles/MayaLand.dir/src/resources/Conf.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/resources/Conf.cpp > CMakeFiles/MayaLand.dir/src/resources/Conf.cpp.i
 
 CMakeFiles/MayaLand.dir/src/resources/Conf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/resources/Conf.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/resources/Conf.cpp -o CMakeFiles/MayaLand.dir/src/resources/Conf.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/resources/Conf.cpp -o CMakeFiles/MayaLand.dir/src/resources/Conf.cpp.s
 
 CMakeFiles/MayaLand.dir/src/resources/Conf.cpp.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/MayaLand.dir/src/resources/Conf.cpp.o.provides.build: CMakeFiles/Maya
 
 CMakeFiles/MayaLand.dir/src/scene/Camera.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/scene/Camera.cpp.o: src/scene/Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/Camera.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/Camera.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/scene/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/Camera.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/Camera.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/scene/Camera.cpp
 
 CMakeFiles/MayaLand.dir/src/scene/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/scene/Camera.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/scene/Camera.cpp > CMakeFiles/MayaLand.dir/src/scene/Camera.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/scene/Camera.cpp > CMakeFiles/MayaLand.dir/src/scene/Camera.cpp.i
 
 CMakeFiles/MayaLand.dir/src/scene/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/scene/Camera.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/scene/Camera.cpp -o CMakeFiles/MayaLand.dir/src/scene/Camera.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/scene/Camera.cpp -o CMakeFiles/MayaLand.dir/src/scene/Camera.cpp.s
 
 CMakeFiles/MayaLand.dir/src/scene/Camera.cpp.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/MayaLand.dir/src/scene/Camera.cpp.o.provides.build: CMakeFiles/MayaLa
 
 CMakeFiles/MayaLand.dir/src/scene/Light.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/scene/Light.cpp.o: src/scene/Light.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/Light.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/Light.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/scene/Light.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/Light.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/Light.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/scene/Light.cpp
 
 CMakeFiles/MayaLand.dir/src/scene/Light.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/scene/Light.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/scene/Light.cpp > CMakeFiles/MayaLand.dir/src/scene/Light.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/scene/Light.cpp > CMakeFiles/MayaLand.dir/src/scene/Light.cpp.i
 
 CMakeFiles/MayaLand.dir/src/scene/Light.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/scene/Light.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/scene/Light.cpp -o CMakeFiles/MayaLand.dir/src/scene/Light.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/scene/Light.cpp -o CMakeFiles/MayaLand.dir/src/scene/Light.cpp.s
 
 CMakeFiles/MayaLand.dir/src/scene/Light.cpp.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/MayaLand.dir/src/scene/Light.cpp.o.provides.build: CMakeFiles/MayaLan
 
 CMakeFiles/MayaLand.dir/src/scene/Object.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/scene/Object.cpp.o: src/scene/Object.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/Object.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/Object.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/scene/Object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/Object.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/Object.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/scene/Object.cpp
 
 CMakeFiles/MayaLand.dir/src/scene/Object.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/scene/Object.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/scene/Object.cpp > CMakeFiles/MayaLand.dir/src/scene/Object.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/scene/Object.cpp > CMakeFiles/MayaLand.dir/src/scene/Object.cpp.i
 
 CMakeFiles/MayaLand.dir/src/scene/Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/scene/Object.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/scene/Object.cpp -o CMakeFiles/MayaLand.dir/src/scene/Object.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/scene/Object.cpp -o CMakeFiles/MayaLand.dir/src/scene/Object.cpp.s
 
 CMakeFiles/MayaLand.dir/src/scene/Object.cpp.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/MayaLand.dir/src/scene/Object.cpp.o.provides.build: CMakeFiles/MayaLa
 
 CMakeFiles/MayaLand.dir/src/scene/World.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/scene/World.cpp.o: src/scene/World.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/World.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/World.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/scene/World.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/World.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/World.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/scene/World.cpp
 
 CMakeFiles/MayaLand.dir/src/scene/World.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/scene/World.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/scene/World.cpp > CMakeFiles/MayaLand.dir/src/scene/World.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/scene/World.cpp > CMakeFiles/MayaLand.dir/src/scene/World.cpp.i
 
 CMakeFiles/MayaLand.dir/src/scene/World.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/scene/World.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/scene/World.cpp -o CMakeFiles/MayaLand.dir/src/scene/World.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/scene/World.cpp -o CMakeFiles/MayaLand.dir/src/scene/World.cpp.s
 
 CMakeFiles/MayaLand.dir/src/scene/World.cpp.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/MayaLand.dir/src/scene/World.cpp.o.provides.build: CMakeFiles/MayaLan
 
 CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.o: src/scene/object/DynamicObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/DynamicObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/scene/object/DynamicObject.cpp
 
 CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/DynamicObject.cpp > CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/scene/object/DynamicObject.cpp > CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.i
 
 CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/DynamicObject.cpp -o CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/scene/object/DynamicObject.cpp -o CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.s
 
 CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.o.provides.build: CMa
 
 CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o: src/scene/object/StaticObject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/StaticObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/scene/object/StaticObject.cpp
 
 CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/StaticObject.cpp > CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/scene/object/StaticObject.cpp > CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.i
 
 CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/StaticObject.cpp -o CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/scene/object/StaticObject.cpp -o CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.s
 
 CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o.requires:
 
@@ -441,18 +441,42 @@ CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o.provides: CMakeFiles
 CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o.provides.build: CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o
 
 
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: CMakeFiles/MayaLand.dir/flags.make
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: src/scene/object/dynamicObject/Cursor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Cursor.cpp
+
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Cursor.cpp > CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.i
+
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Cursor.cpp -o CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.s
+
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o.requires:
+
+.PHONY : CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o.requires
+
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o.provides: CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/MayaLand.dir/build.make CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o.provides.build
+.PHONY : CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o.provides
+
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o.provides.build: CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o
+
+
 CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.o: src/scene/object/dynamicObject/Enemy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/dynamicObject/Enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Enemy.cpp
 
 CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/dynamicObject/Enemy.cpp > CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Enemy.cpp > CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.i
 
 CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/dynamicObject/Enemy.cpp -o CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Enemy.cpp -o CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.s
 
 CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.o.requires:
 
@@ -467,16 +491,16 @@ CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.o.provides.buil
 
 CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.o: src/scene/object/dynamicObject/Player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/dynamicObject/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Player.cpp
 
 CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/dynamicObject/Player.cpp > CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Player.cpp > CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.i
 
 CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/dynamicObject/Player.cpp -o CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Player.cpp -o CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.s
 
 CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.o.requires:
 
@@ -491,16 +515,16 @@ CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.o.provides.bui
 
 CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.o: CMakeFiles/MayaLand.dir/flags.make
 CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.o: src/scene/object/staticObject/Tile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.o -c /home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/staticObject/Tile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.o -c /home/bhagabot/dev/git/MayaLand/src/scene/object/staticObject/Tile.cpp
 
 CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/staticObject/Tile.cpp > CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bhagabot/dev/git/MayaLand/src/scene/object/staticObject/Tile.cpp > CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.i
 
 CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/staticObject/Tile.cpp -o CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bhagabot/dev/git/MayaLand/src/scene/object/staticObject/Tile.cpp -o CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.s
 
 CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.o.requires:
 
@@ -531,6 +555,7 @@ MayaLand_OBJECTS = \
 "CMakeFiles/MayaLand.dir/src/scene/World.cpp.o" \
 "CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.o" \
 "CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o" \
+"CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o" \
 "CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.o" \
 "CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.o" \
 "CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.o"
@@ -554,6 +579,7 @@ MayaLand: CMakeFiles/MayaLand.dir/src/scene/Object.cpp.o
 MayaLand: CMakeFiles/MayaLand.dir/src/scene/World.cpp.o
 MayaLand: CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.o
 MayaLand: CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o
+MayaLand: CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o
 MayaLand: CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.o
 MayaLand: CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.o
 MayaLand: CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.o
@@ -567,7 +593,7 @@ MayaLand: /usr/lib/x86_64-linux-gnu/libXi.so
 MayaLand: /usr/lib/x86_64-linux-gnu/libGLU.so
 MayaLand: /usr/lib/x86_64-linux-gnu/libGL.so
 MayaLand: CMakeFiles/MayaLand.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable MayaLand"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bhagabot/dev/git/MayaLand/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable MayaLand"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MayaLand.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -591,6 +617,7 @@ CMakeFiles/MayaLand.dir/requires: CMakeFiles/MayaLand.dir/src/scene/Object.cpp.o
 CMakeFiles/MayaLand.dir/requires: CMakeFiles/MayaLand.dir/src/scene/World.cpp.o.requires
 CMakeFiles/MayaLand.dir/requires: CMakeFiles/MayaLand.dir/src/scene/object/DynamicObject.cpp.o.requires
 CMakeFiles/MayaLand.dir/requires: CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o.requires
+CMakeFiles/MayaLand.dir/requires: CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o.requires
 CMakeFiles/MayaLand.dir/requires: CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.o.requires
 CMakeFiles/MayaLand.dir/requires: CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Player.cpp.o.requires
 CMakeFiles/MayaLand.dir/requires: CMakeFiles/MayaLand.dir/src/scene/object/staticObject/Tile.cpp.o.requires
@@ -602,6 +629,6 @@ CMakeFiles/MayaLand.dir/clean:
 .PHONY : CMakeFiles/MayaLand.dir/clean
 
 CMakeFiles/MayaLand.dir/depend:
-	cd /home/bhagabot/dev/git/MayaLand/Engine && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bhagabot/dev/git/MayaLand/Engine /home/bhagabot/dev/git/MayaLand/Engine /home/bhagabot/dev/git/MayaLand/Engine /home/bhagabot/dev/git/MayaLand/Engine /home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles/MayaLand.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bhagabot/dev/git/MayaLand && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bhagabot/dev/git/MayaLand /home/bhagabot/dev/git/MayaLand /home/bhagabot/dev/git/MayaLand /home/bhagabot/dev/git/MayaLand /home/bhagabot/dev/git/MayaLand/CMakeFiles/MayaLand.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MayaLand.dir/depend
 

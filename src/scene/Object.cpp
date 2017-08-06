@@ -26,7 +26,13 @@ void Object::setSize(float s)
 
     // FACE TOP
     shape.addTriangle(&p1, &p2, &p3);
+    //Point p4e = Point(p4);
+    Point p4e = Point(-alfSize, height,  alfSize);
+    //p4e.y = rand() % 5;
+    std::cout << "p4e.y=" << p4e.y << std::endl;
+
     shape.addTriangle(&p3, &p4, &p1);
+    //shape.addTriangle(&p3, &p4, &p1);
 
     if (height > 0.f)
     {

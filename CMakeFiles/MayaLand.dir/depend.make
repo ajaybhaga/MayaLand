@@ -34,6 +34,7 @@ CMakeFiles/MayaLand.dir/src/game/Game.cpp.o: src/scene/Object.h
 CMakeFiles/MayaLand.dir/src/game/Game.cpp.o: src/scene/World.h
 CMakeFiles/MayaLand.dir/src/game/Game.cpp.o: src/scene/object/DynamicObject.h
 CMakeFiles/MayaLand.dir/src/game/Game.cpp.o: src/scene/object/StaticObject.h
+CMakeFiles/MayaLand.dir/src/game/Game.cpp.o: src/scene/object/dynamicObject/Cursor.h
 CMakeFiles/MayaLand.dir/src/game/Game.cpp.o: src/scene/object/dynamicObject/Enemy.h
 CMakeFiles/MayaLand.dir/src/game/Game.cpp.o: src/scene/object/dynamicObject/Player.h
 CMakeFiles/MayaLand.dir/src/game/Game.cpp.o: src/scene/object/staticObject/Tile.h
@@ -72,6 +73,7 @@ CMakeFiles/MayaLand.dir/src/main.cpp.o: src/scene/Object.h
 CMakeFiles/MayaLand.dir/src/main.cpp.o: src/scene/World.h
 CMakeFiles/MayaLand.dir/src/main.cpp.o: src/scene/object/DynamicObject.h
 CMakeFiles/MayaLand.dir/src/main.cpp.o: src/scene/object/StaticObject.h
+CMakeFiles/MayaLand.dir/src/main.cpp.o: src/scene/object/dynamicObject/Cursor.h
 CMakeFiles/MayaLand.dir/src/main.cpp.o: src/scene/object/dynamicObject/Enemy.h
 CMakeFiles/MayaLand.dir/src/main.cpp.o: src/scene/object/dynamicObject/Player.h
 CMakeFiles/MayaLand.dir/src/main.cpp.o: src/scene/object/staticObject/Tile.h
@@ -152,6 +154,23 @@ CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o: src/scene/Light.h
 CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o: src/scene/Object.h
 CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o: src/scene/object/StaticObject.cpp
 CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.o: src/scene/object/StaticObject.h
+
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: src/ai/Block.h
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: src/ai/Pathfinder.h
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: src/graphics/Point.h
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: src/graphics/Polygon.h
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: src/graphics/Triangle.h
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: src/math/Vector3.h
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: src/math/Vector3Util.h
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: src/resources/Conf.h
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: src/scene/Camera.h
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: src/scene/Light.h
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: src/scene/Object.h
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: src/scene/World.h
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: src/scene/object/DynamicObject.h
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: src/scene/object/StaticObject.h
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: src/scene/object/dynamicObject/Cursor.cpp
+CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o: src/scene/object/dynamicObject/Cursor.h
 
 CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.o: src/ai/Block.h
 CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Enemy.cpp.o: src/ai/Pathfinder.h

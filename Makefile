@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bhagabot/dev/git/MayaLand/Engine
+CMAKE_SOURCE_DIR = /home/bhagabot/dev/git/MayaLand
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bhagabot/dev/git/MayaLand/Engine
+CMAKE_BINARY_DIR = /home/bhagabot/dev/git/MayaLand
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles /home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bhagabot/dev/git/MayaLand/CMakeFiles /home/bhagabot/dev/git/MayaLand/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bhagabot/dev/git/MayaLand/Engine/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bhagabot/dev/git/MayaLand/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -555,6 +555,33 @@ src/scene/object/StaticObject.cpp.s:
 	$(MAKE) -f CMakeFiles/MayaLand.dir/build.make CMakeFiles/MayaLand.dir/src/scene/object/StaticObject.cpp.s
 .PHONY : src/scene/object/StaticObject.cpp.s
 
+src/scene/object/dynamicObject/Cursor.o: src/scene/object/dynamicObject/Cursor.cpp.o
+
+.PHONY : src/scene/object/dynamicObject/Cursor.o
+
+# target to build an object file
+src/scene/object/dynamicObject/Cursor.cpp.o:
+	$(MAKE) -f CMakeFiles/MayaLand.dir/build.make CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.o
+.PHONY : src/scene/object/dynamicObject/Cursor.cpp.o
+
+src/scene/object/dynamicObject/Cursor.i: src/scene/object/dynamicObject/Cursor.cpp.i
+
+.PHONY : src/scene/object/dynamicObject/Cursor.i
+
+# target to preprocess a source file
+src/scene/object/dynamicObject/Cursor.cpp.i:
+	$(MAKE) -f CMakeFiles/MayaLand.dir/build.make CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.i
+.PHONY : src/scene/object/dynamicObject/Cursor.cpp.i
+
+src/scene/object/dynamicObject/Cursor.s: src/scene/object/dynamicObject/Cursor.cpp.s
+
+.PHONY : src/scene/object/dynamicObject/Cursor.s
+
+# target to generate assembly for a file
+src/scene/object/dynamicObject/Cursor.cpp.s:
+	$(MAKE) -f CMakeFiles/MayaLand.dir/build.make CMakeFiles/MayaLand.dir/src/scene/object/dynamicObject/Cursor.cpp.s
+.PHONY : src/scene/object/dynamicObject/Cursor.cpp.s
+
 src/scene/object/dynamicObject/Enemy.o: src/scene/object/dynamicObject/Enemy.cpp.o
 
 .PHONY : src/scene/object/dynamicObject/Enemy.o
@@ -693,6 +720,9 @@ help:
 	@echo "... src/scene/object/StaticObject.o"
 	@echo "... src/scene/object/StaticObject.i"
 	@echo "... src/scene/object/StaticObject.s"
+	@echo "... src/scene/object/dynamicObject/Cursor.o"
+	@echo "... src/scene/object/dynamicObject/Cursor.i"
+	@echo "... src/scene/object/dynamicObject/Cursor.s"
 	@echo "... src/scene/object/dynamicObject/Enemy.o"
 	@echo "... src/scene/object/dynamicObject/Enemy.i"
 	@echo "... src/scene/object/dynamicObject/Enemy.s"

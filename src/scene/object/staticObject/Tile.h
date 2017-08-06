@@ -3,6 +3,7 @@
 
 #include "../StaticObject.h"
 #include "../../World.h"
+#include "../../../resources/Conf.h"
 
 #include <iostream>
 #include <SFML/Graphics.hpp>

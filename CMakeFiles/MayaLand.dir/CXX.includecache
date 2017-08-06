@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/ai/Block.cpp
+/home/bhagabot/dev/git/MayaLand/src/ai/Block.cpp
 Block.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/ai/Block.h
+/home/bhagabot/dev/git/MayaLand/src/ai/Block.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/ai/Block.h
+/home/bhagabot/dev/git/MayaLand/src/ai/Block.h
 ../math/Vector3.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3.h
 cstdlib
 -
 iostream
 -
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/ai/Pathfinder.cpp
+/home/bhagabot/dev/git/MayaLand/src/ai/Pathfinder.cpp
 Pathfinder.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/ai/Pathfinder.h
+/home/bhagabot/dev/git/MayaLand/src/ai/Pathfinder.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/ai/Pathfinder.h
+/home/bhagabot/dev/git/MayaLand/src/ai/Pathfinder.h
 ../scene/object/StaticObject.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/StaticObject.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/StaticObject.h
 ../math/Vector3.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3.h
 Block.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/ai/Block.h
+/home/bhagabot/dev/git/MayaLand/src/ai/Block.h
 iostream
 -
 vector
@@ -38,53 +38,55 @@ list
 map
 -
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/game/Game.cpp
+/home/bhagabot/dev/git/MayaLand/src/game/Game.cpp
 Game.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/game/Game.h
+/home/bhagabot/dev/git/MayaLand/src/game/Game.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/game/Game.h
+/home/bhagabot/dev/git/MayaLand/src/game/Game.h
 ../scene/World.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/World.h
+/home/bhagabot/dev/git/MayaLand/src/scene/World.h
 ../scene/Light.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Light.h
+/home/bhagabot/dev/git/MayaLand/src/scene/Light.h
+../scene/object/dynamicObject/Cursor.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Cursor.h
 ../scene/object/dynamicObject/Player.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/dynamicObject/Player.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Player.h
 ../scene/object/dynamicObject/Enemy.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/dynamicObject/Enemy.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Enemy.h
 ../scene/object/staticObject/Tile.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/staticObject/Tile.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/staticObject/Tile.h
 ../resources/Conf.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/resources/Conf.h
+/home/bhagabot/dev/git/MayaLand/src/resources/Conf.h
 iostream
 -
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Point.cpp
+/home/bhagabot/dev/git/MayaLand/src/graphics/Point.cpp
 Point.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Point.h
+/home/bhagabot/dev/git/MayaLand/src/graphics/Point.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Point.h
+/home/bhagabot/dev/git/MayaLand/src/graphics/Point.h
 ../math/Vector3.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3.h
 vector
 -
 iostream
 -
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Polygon.cpp
+/home/bhagabot/dev/git/MayaLand/src/graphics/Polygon.cpp
 Polygon.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Polygon.h
+/home/bhagabot/dev/git/MayaLand/src/graphics/Polygon.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Polygon.h
+/home/bhagabot/dev/git/MayaLand/src/graphics/Polygon.h
 Point.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Point.h
+/home/bhagabot/dev/git/MayaLand/src/graphics/Point.h
 Triangle.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Triangle.h
+/home/bhagabot/dev/git/MayaLand/src/graphics/Triangle.h
 ../math/Vector3.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3.h
 ../math/Vector3.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3.h
 ../resources/Conf.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/resources/Conf.h
+/home/bhagabot/dev/git/MayaLand/src/resources/Conf.h
 vector
 -
 iostream
@@ -94,17 +96,17 @@ SFML/Graphics.hpp
 SFML/OpenGL.hpp
 -
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Triangle.cpp
+/home/bhagabot/dev/git/MayaLand/src/graphics/Triangle.cpp
 Triangle.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Triangle.h
+/home/bhagabot/dev/git/MayaLand/src/graphics/Triangle.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Triangle.h
+/home/bhagabot/dev/git/MayaLand/src/graphics/Triangle.h
 Point.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Point.h
+/home/bhagabot/dev/git/MayaLand/src/graphics/Point.h
 ../math/Vector3.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3.h
 ../math/Vector3Util.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3Util.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3Util.h
 vector
 -
 iostream
@@ -114,53 +116,53 @@ SFML/Graphics.hpp
 SFML/OpenGL.hpp
 -
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/main.cpp
+/home/bhagabot/dev/git/MayaLand/src/main.cpp
 game/Game.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/game/Game.h
+/home/bhagabot/dev/git/MayaLand/src/game/Game.h
 resources/Conf.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/resources/Conf.h
+/home/bhagabot/dev/git/MayaLand/src/resources/Conf.h
 SFML/Graphics.hpp
 -
 iostream
 -
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3.cpp
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3.cpp
 Vector3.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3.h
 cmath
 -
 limits
 -
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3Util.cpp
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3Util.cpp
 Vector3Util.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3Util.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3Util.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3Util.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3Util.h
 Vector3.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/resources/Conf.cpp
+/home/bhagabot/dev/git/MayaLand/src/resources/Conf.cpp
 Conf.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/resources/Conf.h
+/home/bhagabot/dev/git/MayaLand/src/resources/Conf.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/resources/Conf.h
+/home/bhagabot/dev/git/MayaLand/src/resources/Conf.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Camera.cpp
+/home/bhagabot/dev/git/MayaLand/src/scene/Camera.cpp
 Camera.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Camera.h
+/home/bhagabot/dev/git/MayaLand/src/scene/Camera.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Camera.h
+/home/bhagabot/dev/git/MayaLand/src/scene/Camera.h
 Light.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Light.h
+/home/bhagabot/dev/git/MayaLand/src/scene/Light.h
 Object.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Object.h
+/home/bhagabot/dev/git/MayaLand/src/scene/Object.h
 ../math/Vector3.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3.h
 ../resources/Conf.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/resources/Conf.h
+/home/bhagabot/dev/git/MayaLand/src/resources/Conf.h
 SFML/Graphics.hpp
 -
 list
@@ -168,119 +170,133 @@ list
 iostream
 -
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Light.cpp
+/home/bhagabot/dev/git/MayaLand/src/scene/Light.cpp
 Light.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Light.h
+/home/bhagabot/dev/git/MayaLand/src/scene/Light.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Light.h
+/home/bhagabot/dev/git/MayaLand/src/scene/Light.h
 ../math/Vector3.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3.h
 ../math/Vector3Util.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3Util.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3Util.h
 SFML/Graphics.hpp
 -
 SFML/OpenGL.hpp
 -
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Object.cpp
+/home/bhagabot/dev/git/MayaLand/src/scene/Object.cpp
 Object.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Object.h
+/home/bhagabot/dev/git/MayaLand/src/scene/Object.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Object.h
+/home/bhagabot/dev/git/MayaLand/src/scene/Object.h
 Light.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Light.h
+/home/bhagabot/dev/git/MayaLand/src/scene/Light.h
 ../graphics/Polygon.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Polygon.h
+/home/bhagabot/dev/git/MayaLand/src/graphics/Polygon.h
 ../graphics/Point.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/graphics/Point.h
+/home/bhagabot/dev/git/MayaLand/src/graphics/Point.h
 ../math/Vector3.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3.h
 SFML/Graphics.hpp
 -
 iostream
 -
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/World.cpp
+/home/bhagabot/dev/git/MayaLand/src/scene/World.cpp
 World.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/World.h
+/home/bhagabot/dev/git/MayaLand/src/scene/World.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/World.h
+/home/bhagabot/dev/git/MayaLand/src/scene/World.h
 Camera.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Camera.h
+/home/bhagabot/dev/git/MayaLand/src/scene/Camera.h
 Light.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Light.h
+/home/bhagabot/dev/git/MayaLand/src/scene/Light.h
 Object.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Object.h
+/home/bhagabot/dev/git/MayaLand/src/scene/Object.h
 object/DynamicObject.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/DynamicObject.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/DynamicObject.h
 object/StaticObject.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/StaticObject.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/StaticObject.h
 ../ai/Pathfinder.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/ai/Pathfinder.h
+/home/bhagabot/dev/git/MayaLand/src/ai/Pathfinder.h
 ../resources/Conf.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/resources/Conf.h
+/home/bhagabot/dev/git/MayaLand/src/resources/Conf.h
 list
 -
 iostream
 -
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/DynamicObject.cpp
+/home/bhagabot/dev/git/MayaLand/src/scene/object/DynamicObject.cpp
 DynamicObject.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/DynamicObject.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/DynamicObject.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/DynamicObject.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/DynamicObject.h
 ../Object.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Object.h
+/home/bhagabot/dev/git/MayaLand/src/scene/Object.h
 ../../math/Vector3.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3.h
 ../../math/Vector3Util.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/math/Vector3Util.h
+/home/bhagabot/dev/git/MayaLand/src/math/Vector3Util.h
 ../../ai/Pathfinder.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/ai/Pathfinder.h
+/home/bhagabot/dev/git/MayaLand/src/ai/Pathfinder.h
 iostream
 -
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/StaticObject.cpp
+/home/bhagabot/dev/git/MayaLand/src/scene/object/StaticObject.cpp
 StaticObject.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/StaticObject.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/StaticObject.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/StaticObject.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/StaticObject.h
 ../Object.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/Object.h
+/home/bhagabot/dev/git/MayaLand/src/scene/Object.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/dynamicObject/Enemy.cpp
+/home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Cursor.cpp
+Cursor.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Cursor.h
+
+/home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Cursor.h
+../DynamicObject.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/DynamicObject.h
+../../World.h
+/home/bhagabot/dev/git/MayaLand/src/scene/World.h
+iostream
+-
+
+/home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Enemy.cpp
 Enemy.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/dynamicObject/Enemy.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Enemy.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/dynamicObject/Enemy.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Enemy.h
 ../DynamicObject.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/DynamicObject.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/DynamicObject.h
 ../../World.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/World.h
+/home/bhagabot/dev/git/MayaLand/src/scene/World.h
 iostream
 -
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/dynamicObject/Player.cpp
+/home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Player.cpp
 Player.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/dynamicObject/Player.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Player.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/dynamicObject/Player.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/dynamicObject/Player.h
 ../DynamicObject.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/DynamicObject.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/DynamicObject.h
 ../../World.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/World.h
+/home/bhagabot/dev/git/MayaLand/src/scene/World.h
 iostream
 -
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/staticObject/Tile.cpp
+/home/bhagabot/dev/git/MayaLand/src/scene/object/staticObject/Tile.cpp
 Tile.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/staticObject/Tile.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/staticObject/Tile.h
 
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/staticObject/Tile.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/staticObject/Tile.h
 ../StaticObject.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/object/StaticObject.h
+/home/bhagabot/dev/git/MayaLand/src/scene/object/StaticObject.h
 ../../World.h
-/home/bhagabot/dev/git/MayaLand/Engine/src/scene/World.h
+/home/bhagabot/dev/git/MayaLand/src/scene/World.h
+../../../resources/Conf.h
+/home/bhagabot/dev/git/MayaLand/src/resources/Conf.h
 iostream
 -
 SFML/Graphics.hpp

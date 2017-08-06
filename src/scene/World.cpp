@@ -11,14 +11,21 @@ World::World()
 void World::draw()
 {
     list<Object*> objectList;
+
+    // Load static scene objects
     for (list<StaticObject*>::iterator i = staticObjectList.begin(); i != staticObjectList.end(); ++ i)
     {
         objectList.push_back(*i);
     }
+
+    // Load dynamic scene objects
     for (list<DynamicObject*>::iterator i = dynamicObjectList.begin(); i != dynamicObjectList.end(); ++ i)
     {
         objectList.push_back(*i);
     }
+
+    // Object list is filled with static and dynamic scene objects
+
     camera.draw(&objectList, &lightList);
 }
 
@@ -68,6 +75,13 @@ void World::updateMousePosition(float mouseScreenX, float mouseScreenY)
     // Add camera offset
     mouseX += camera.getX();
     mouseY += camera.getZ();
+
+    /*
+    std::cout << "Mouse location: mouseScreenX=" << mouseScreenX << " mouseScreenY=" << mouseScreenY << std::endl;
+    std::cout << "Mouse location: mouseX=" << mouseX << " mouseY=" << mouseY << std::endl;
+    std::cout << "Camera offset location: cameraX=" << camera.getX() << " cameraZ=" << camera.getZ() << std::endl;
+    */
+
 }
 
 void World::dispatch(unsigned const int type)

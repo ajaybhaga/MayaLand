@@ -1,6 +1,6 @@
 /***********************************************************
 *
-* Base on original code by author: vincent.cogne@gmail.com
+* Based on original code by author: vincent.cogne@gmail.com
 *
 ***********************************************************/
 
@@ -63,10 +63,11 @@ int main()
 
 
     // Declare and create a new window
-    sf::Window window(sf::VideoMode(Conf::SCREEN_WIDTH, Conf::SCREEN_HEIGHT), "Game window");
+    sf::Window window(sf::VideoMode(Conf::SCREEN_WIDTH, Conf::SCREEN_HEIGHT), "Maya Land v0.1");
     // Limit the framerate to 60 frames per second (this step is optional)
     window.setFramerateLimit(60);
     window.setVerticalSyncEnabled(false);
+
 
     // Create main window
 //    WindowSettings Settings;
@@ -109,10 +110,14 @@ int main()
     game.init();
 
     // Start game loop
-    while (window.isOpen())
-    {
+    while (window.isOpen())        
+    {          
        // Event processing
        sf::Event event;
+
+       bool mouseMove = false;
+       sf::Vector2i mousePos;
+
        while (window.pollEvent(event))
        {
            switch (event.type)
@@ -129,10 +134,16 @@ int main()
 
                case sf::Event::MouseButtonPressed:
                    game.onEvent(&event);
+                   mousePos = sf::Mouse::getPosition(window);
+                   game.setMousePosition(mousePos.x, mousePos.y);
+                   break;
 
-                   // get global mouse position
-                   sf::Vector2i position = sf::Mouse::getPosition();
-                   game.setMousePosition(position.x, position.y);
+               case sf::Event::MouseMoved:
+                   mouseMove = true;
+                   mousePos = sf::Mouse::getPosition(window);
+                   game.setMousePosition(mousePos.x, mousePos.y);
+                   //std::cout << "Mouse location: mousePos.x=" << mousePos.x << " mousePos.y=" << mousePos.y << std::endl;
+
                    break;
            }
        }
@@ -143,6 +154,7 @@ int main()
        glLoadIdentity();
 
        // Isometric angle
+       //glRotatef(60.f, 1.f, 0.f, 0.f);
        glRotatef(30.f, 1.f, 0.f, 0.f);
        glRotatef(-45.f, 0.f, 1.f, 0.f);
 
@@ -157,7 +169,7 @@ int main()
        frameCount ++;
        if (clock.getElapsedTime().asSeconds() >= 1.f)
        {
-           std::cout << "Framerate: " << (frameCount * clock.getElapsedTime().asSeconds()) << " FPS" << std::endl;
+           //std::cout << "Framerate: " << (frameCount * clock.getElapsedTime().asSeconds()) << " FPS" << std::endl;
            frameCount = 0;
            clock.restart();
        }
@@ -165,17 +177,44 @@ int main()
        // Draw
        game.draw();
 
-       glBegin(GL_LINES);
-       glColor3d(1.f, 0.f, 0.f);
-       glVertex3d(0.f, 0.f, 0.f);
-       glVertex3d(50.f, 0.f, 0.f);
-       glColor3d(0.f, 1.f, 0.f);
-       glVertex3d(0.f, 0.f, 0.f);
-       glVertex3d(0.f, 50.f, 0.f);
-       glColor3d(0.f, 0.f, 1.f);
-       glVertex3d(0.f, 0.f, 0.f);
-       glVertex3d(0.f, 0.f, 50.f);
+/*
+       glPushMatrix();
+       glColorMask(GL_ONE, GL_ONE, GL_ONE, GL_ONE);
+       glEnable(GL_BLEND);
+
+       glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
+       // Reset matix
+       //glLoadIdentity();
+
+       // Isometric angle
+       //glRotatef(60.f, 1.f, 0.f, 0.f);
+       //glRotatef(30.f, 1.f, 0.f, 0.f);
+       //glRotatef(-45.f, 0.f, 1.f, 0.f);
+
+       // Scale
+       glScaled(sqrt(1/2.0), sqrt(1/3.0), sqrt(1/2.0));
+
+       // Set vertices for cursor triangles
+       sf::Vector3i cursor;
+       cursor.x = mousePos.x;
+       cursor.z = mousePos.y;
+
+       glBegin(GL_TRIANGLES);
+       glVertex3f(cursor.x, cursor.y, cursor.z);
+       glVertex3f(cursor.x+Conf::TILE_SIZE, cursor.y, cursor.z+Conf::TILE_SIZE);
+       glVertex3f(cursor.x, cursor.y, cursor.z+Conf::TILE_SIZE);
+
+       glVertex3f(cursor.x, cursor.y, cursor.z);
+       glVertex3f(cursor.x+Conf::TILE_SIZE, cursor.y, cursor.z);
+       glVertex3f(cursor.x+Conf::TILE_SIZE, cursor.y, cursor.z+Conf::TILE_SIZE);
        glEnd();
+
+       glColorMask(GL_ZERO, GL_ZERO, GL_ZERO, GL_ZERO);
+       glDisable(GL_BLEND);
+
+       glPopMatrix();
+       */
 
        // End the current frame and display its contents on screen
        window.display();

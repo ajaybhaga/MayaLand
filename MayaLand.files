@@ -41,6 +41,8 @@ src/scene/object/DynamicObject.cpp
 src/scene/object/DynamicObject.h
 src/scene/object/StaticObject.cpp
 src/scene/object/StaticObject.h
+src/scene/object/dynamicObject/Cursor.cpp
+src/scene/object/dynamicObject/Cursor.h
 src/scene/object/dynamicObject/Enemy.cpp
 src/scene/object/dynamicObject/Enemy.h
 src/scene/object/dynamicObject/Player.cpp

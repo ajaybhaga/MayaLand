@@ -13,9 +13,11 @@ Game::Game()
 void Game::init()
 {
     Player *p = new Player(&world);
-
     world.addDynamicObject(p);
     world.setFocus(p);
+
+    Cursor *c = new Cursor(&world);
+    world.addDynamicObject(c);
 
     for (unsigned int i = 0; i < 20; i ++)
     {
@@ -27,8 +29,10 @@ void Game::init()
     for (unsigned int x(0); x < Conf::WORLD_WIDTH / 128; x ++)
     {
         for (unsigned int y(0); y < Conf::WORLD_HEIGHT / 128; y ++)
-        {
+        {            
             world.addStaticObject(new Tile(&world, x * 128.f, 0.f, y * 128.f, 0.f));
+
+            //world.addStaticObject(new Tile(&world, x * 128.f, rand() % 128, y * 128.f, 0.f));
         }
     }
 
@@ -47,10 +51,44 @@ void Game::init()
     world.addStaticObject(new Tile(&world, 10.f * 128.f, 0.f, 13.f * 128.f, 64.f));
     world.addStaticObject(new Tile(&world, 8.f * 128.f, 0.f, 16.f * 128.f, 32.f));
 
-    world.addLight(new Light(256.f, 128.f, 256.f, 1.f, 0.f, 0.f));    // 2x2
-    world.addLight(new Light(1024.f, 120.f, 1024.f, 0.f, 1.f, 0.f));  // 8x8
-    world.addLight(new Light(1280.f, 120.f, 512.f, 0.f, 0.f, 1.f));   // 10x4
-    world.addLight(new Light(640.f, 120.f, 512.f, 1.f, 1.f, 1.f));    // 5x4
+    int n;
+    float r, g, b;
+
+    // Generate light
+    n = rand () % 10;
+    r = n * 0.1f;
+    n = rand () % 10;
+    g = n * 0.1f;
+    n = rand () % 10;
+    b = n * 0.1f;
+    world.addLight(new Light(256.f, 128.f, 256.f, r, g, b));    // 2x2
+
+    // Generate light
+    n = rand () % 10;
+    r = n * 0.1f;
+    n = rand () % 10;
+    g = n * 0.1f;
+    n = rand () % 10;
+    b = n * 0.1f;
+    world.addLight(new Light(1024.f, 120.f, 1024.f, r, g, b));  // 8x8
+
+    // Generate light
+    n = rand () % 10;
+    r = n * 0.1f;
+    n = rand () % 10;
+    g = n * 0.1f;
+    n = rand () % 10;
+    b = n * 0.1f;
+    world.addLight(new Light(1280.f, 120.f, 512.f, r, g, b));   // 10x4
+
+    // Generate light
+    n = rand () % 10;
+    r = n * 0.1f;
+    n = rand () % 10;
+    g = n * 0.1f;
+    n = rand () % 10;
+    b = n * 0.1f;
+    world.addLight(new Light(640.f, 120.f, 512.f, r, g, b));    // 5x4
 }
 
 void Game::draw()
@@ -87,6 +125,7 @@ void Game::onEvent(Event *event)
 
 void Game::setMousePosition(unsigned int x, unsigned int y)
 {
+    std::cout << "windowPaddingLeft=" << windowPaddingLeft << " windowPaddingTop=" << windowPaddingTop << std::endl;
     world.updateMousePosition((x + windowPaddingLeft) * windowScale - Conf::SCREEN_WIDTH / 2.f, (y + windowPaddingTop) * windowScale - Conf::SCREEN_HEIGHT / 2.f);
 }
 

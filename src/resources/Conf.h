@@ -12,6 +12,8 @@ class Conf
 
         static float SCREEN_WIDTH;
         static float SCREEN_HEIGHT;
+
+        static float TILE_SIZE;
 };
 
 #endif

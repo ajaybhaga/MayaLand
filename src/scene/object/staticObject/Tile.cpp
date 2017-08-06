@@ -6,7 +6,7 @@ Tile::Tile(World *W, float x, float y, float z, float h) : StaticObject(W, h, (h
     position.y = y;
     position.z = z;
 
-    setSize(128.f);
+    setSize(Conf::TILE_SIZE);
 }
 
 void Tile::draw()

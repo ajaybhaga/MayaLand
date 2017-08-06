@@ -8,3 +8,4 @@ int Conf::WORLD_HEIGHT  = 2048;
 float Conf::SCREEN_WIDTH  = 800;
 float Conf::SCREEN_HEIGHT = 600;
 
+float Conf::TILE_SIZE = 128.0;
