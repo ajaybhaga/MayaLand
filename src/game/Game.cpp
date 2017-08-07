@@ -37,8 +37,8 @@ void Game::init()
     int mapHeight = Conf::WORLD_HEIGHT / 128;
 
     int dimSize = mapWidth*mapHeight;
-    int heightMap[dimSize];
 
+    int* heightMap = new int[dimSize];
 
     for (unsigned int x(0); x < mapWidth; x ++)
     {
@@ -68,10 +68,6 @@ void Game::init()
         {            
             int m = y*mapWidth + x;
             int mNextRow = (y+1)*mapWidth + x;
-
-            //world.addStaticObject(new Tile(&world, x * 128.f, 0.f, y * 128.f, 0.f));
-
-            //heightMap[m]
 
             if (mNextRow+1 < dimSize) {
                 world.addStaticObject(new Tile(&world, x * 128.f, 0.0, y * 128.f, heightMap[m], heightMap[m+1], heightMap[mNextRow], heightMap[mNextRow+1]));

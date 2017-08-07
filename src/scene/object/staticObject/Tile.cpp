@@ -91,6 +91,16 @@ void Tile::draw()
     glColor4f(0.5f, 0.45f, 0.3f, 1.f);
 
     Object::draw();
+
+/*    glColorMask(GL_ONE, GL_ONE, GL_ONE, GL_ONE);
+    glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
+    Object::drawOutline();
+
+    glColorMask(GL_ZERO, GL_ZERO, GL_ZERO, GL_ZERO);
+    glDisable(GL_BLEND);*/
+
 }
 
 void Tile::generateColour() {

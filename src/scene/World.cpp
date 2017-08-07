@@ -8,6 +8,11 @@ World::World()
 {
 }
 
+World::~World() {
+    if (heightMap)
+        delete heightMap;
+}
+
 void World::draw()
 {
     list<Object*> objectList;

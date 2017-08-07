@@ -17,6 +17,7 @@ class World
     public:
 
         World();
+        ~World();
 
         void draw();
         void update(float time);

@@ -28,7 +28,10 @@ void DynamicObject::move(float time)
 {
     if (canMove == true)
     {
-        if (Vector3Util::dist(position, destination) > 5.f)
+        Vector3 _position = Vector3(position.x, 0.0, position.z);
+        Vector3 _destination = Vector3(destination.x, 0.0, destination.z);
+
+        if (Vector3Util::dist(_position, _destination) > 5.f)
         {
             position += direction * speed * time;
         }

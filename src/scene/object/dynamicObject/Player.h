@@ -17,6 +17,9 @@ class Player : public DynamicObject
         virtual void onNotify(unsigned const int type);
         virtual void drawOutline();
 
+    protected:
+        Vector3 rotation;
+
     private:
         void onMouseLeftDown();       
 };
