@@ -15,7 +15,7 @@ class Player : public DynamicObject
         virtual void draw();
         virtual void update(float time);
         virtual void onNotify(unsigned const int type);
-
+        virtual void drawOutline();
 
     private:
         void onMouseLeftDown();       

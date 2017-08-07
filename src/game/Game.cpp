@@ -25,20 +25,57 @@ void Game::init()
     Cursor *c = new Cursor(&world);
     world.addDynamicObject(c);
 
+    /*
     for (unsigned int i = 0; i < 20; i ++)
     {
         Enemy *e = new Enemy(&world);
         e->setPosition(rand() % Conf::WORLD_WIDTH, 0.f, rand() % Conf::WORLD_HEIGHT);
         world.addDynamicObject(e);
+    }*/
+
+    int mapWidth = Conf::WORLD_WIDTH / 128;
+    int mapHeight = Conf::WORLD_HEIGHT / 128;
+
+    int dimSize = mapWidth*mapHeight;
+    int heightMap[dimSize];
+
+
+    for (unsigned int x(0); x < mapWidth; x ++)
+    {
+        for (unsigned int y(0); y < mapHeight; y ++)
+        {
+            int m = y*mapWidth + x;
+            //heightMap[m] = rand() % 20;
+            heightMap[m] = 0;
+        }
     }
 
-    for (unsigned int x(0); x < Conf::WORLD_WIDTH / 128; x ++)
-    {
-        for (unsigned int y(0); y < Conf::WORLD_HEIGHT / 128; y ++)
-        {            
-            world.addStaticObject(new Tile(&world, x * 128.f, 0.f, y * 128.f, 0.f));
+    for (int r = 0; r < 50; r++) {
+        n = rand () % Conf::WORLD_WIDTH;
+        x = n/Conf::TILE_SIZE;
+        n = rand () % Conf::WORLD_HEIGHT;
+        y = n/Conf::TILE_SIZE;
+        int m = y*mapWidth + x;
+        heightMap[m] = rand() % 128;
+    }
 
-            //world.addStaticObject(new Tile(&world, x * 128.f, rand() % 128, y * 128.f, 0.f));
+    // Set world height map
+    world.setHeightMap(heightMap);
+
+    for (unsigned int x(0); x < mapWidth; x ++)
+    {
+        for (unsigned int y(0); y < mapHeight; y ++)
+        {            
+            int m = y*mapWidth + x;
+            int mNextRow = (y+1)*mapWidth + x;
+
+            //world.addStaticObject(new Tile(&world, x * 128.f, 0.f, y * 128.f, 0.f));
+
+            //heightMap[m]
+
+            if (mNextRow+1 < dimSize) {
+                world.addStaticObject(new Tile(&world, x * 128.f, 0.0, y * 128.f, heightMap[m], heightMap[m+1], heightMap[mNextRow], heightMap[mNextRow+1]));
+            }
         }
     }
 
@@ -50,10 +87,11 @@ void Game::init()
         z = n;
         ///world.addLight(new Light(x, y, z, r, g, b));
 
-        world.addStaticObject(new Tile(&world, x, 0.0, z, h));
+
+        //world.addStaticObject(new Tile(&world, x, 0.0, z, h));
     }
 
-    world.addStaticObject(new Tile(&world, 1.f * 128.f, 0.f, 4.f * 128.f, 64.f));
+    /*world.addStaticObject(new Tile(&world, 1.f * 128.f, 0.f, 4.f * 128.f, 64.f));
     world.addStaticObject(new Tile(&world, 2.f * 128.f, 0.f, 10.f * 128.f, 24.f));
     world.addStaticObject(new Tile(&world, 4.f * 128.f, 0.f, 1.f * 128.f, 128.f));
     world.addStaticObject(new Tile(&world, 8.f * 128.f, 0.f, 7.f * 128.f, 32.f));
@@ -66,7 +104,7 @@ void Game::init()
     world.addStaticObject(new Tile(&world, 11.f * 128.f, 0.f, 5.f * 128.f, 48.f));
     world.addStaticObject(new Tile(&world, 15.f * 128.f, 0.f, 10.f * 128.f, 32.f));
     world.addStaticObject(new Tile(&world, 10.f * 128.f, 0.f, 13.f * 128.f, 64.f));
-    world.addStaticObject(new Tile(&world, 8.f * 128.f, 0.f, 16.f * 128.f, 32.f));    
+    world.addStaticObject(new Tile(&world, 8.f * 128.f, 0.f, 16.f * 128.f, 32.f));    */
 
     for (int i = 0; i < numLights; i++) {
         // Generate light
@@ -101,9 +139,11 @@ void Game::onEvent(Event *event)
     if (sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
         world.dispatch(World::ON_MOUSE_LEFT_DOWN);
     }
+
+
     // RESIZE
-    else if (event->type == Event::Resized)
-    {
+    if (event->type == sf::Event::Resized)
+    {        
         if ((float)event->size.width / (float)event->size.height > Conf::SCREEN_WIDTH / Conf::SCREEN_HEIGHT)
         {
             windowScale= Conf::SCREEN_HEIGHT / event->size.height;

@@ -11,6 +11,7 @@ World::World()
 void World::draw()
 {
     list<Object*> objectList;
+    list<Object*> outlineObjectList;
 
     // Load static scene objects
     for (list<StaticObject*>::iterator i = staticObjectList.begin(); i != staticObjectList.end(); ++ i)
@@ -22,11 +23,12 @@ void World::draw()
     for (list<DynamicObject*>::iterator i = dynamicObjectList.begin(); i != dynamicObjectList.end(); ++ i)
     {
         objectList.push_back(*i);
+        outlineObjectList.push_back(*i);
     }
 
     // Object list is filled with static and dynamic scene objects
 
-    camera.draw(&objectList, &lightList);
+    camera.draw(&objectList, &outlineObjectList, &lightList);
 }
 
 void World::update(float time)
@@ -92,3 +94,10 @@ void World::dispatch(unsigned const int type)
     }
 }
 
+void World::setHeightMap(int *heightMap) {
+    this->heightMap = heightMap;
+}
+
+int* World::getHeightMap() {
+    return heightMap;
+}

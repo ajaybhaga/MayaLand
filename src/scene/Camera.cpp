@@ -13,7 +13,7 @@ Camera::Camera()
     position.z = 0.f;
 }
 
-void Camera::draw(std::list<Object*> *objects, std::list<Light*> *lights)
+void Camera::draw(std::list<Object*> *objects, std::list<Object*> *outlineObjects, std::list<Light*> *lights)
 {
     // Translate to camera's position
     glPushMatrix();

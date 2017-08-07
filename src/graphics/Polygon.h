@@ -23,12 +23,13 @@ class Polygon
         void drawOutline();
         void drawShadow(Vector3 lightPosition);
         void addTriangle(Point *p1, Point *p2, Point *p3);
+        std::vector<Triangle> getTriangles();
         void clear();
         void updateConnectivity();
         void updateShadows(Vector3 lightPosition);
 
 
-    private:
+    protected:
 
         std::vector<Triangle> triangles; // rename to shapeVolume
         std::vector<Point*> silhouette;

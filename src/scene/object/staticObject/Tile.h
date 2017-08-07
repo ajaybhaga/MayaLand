@@ -12,10 +12,11 @@ class Tile : public StaticObject
 {
     public:
 
-        Tile(World *W, float x, float y, float z, float h);
+        Tile(World *W, float x, float y, float z, float h1, float h2, float h3, float h4);
 
         virtual void draw();
         virtual void generateColour();
+        virtual void drawOutline();
 
     private:
         float r, g, b; // Object colour

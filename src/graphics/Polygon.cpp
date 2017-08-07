@@ -11,6 +11,10 @@ void Polygon::addTriangle(Point *p1, Point *p2, Point *p3)
     triangles.push_back(Triangle(p1, p2, p3));
 }
 
+std::vector<Triangle> Polygon::getTriangles() {
+    return triangles;
+}
+
 void Polygon::clear()
 {
     triangles.clear();

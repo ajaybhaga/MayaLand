@@ -17,6 +17,10 @@ void Cursor::onNotify(unsigned const int type)
     if (type == World::ON_MOUSE_LEFT_DOWN)
     {
      //   setPath(world->mouseX, world->mouseY);
+
+        position.x = world->mouseX;
+        position.z = world->mouseY;
+
     }
 }
 

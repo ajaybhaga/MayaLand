@@ -27,6 +27,8 @@ class World
         void setFocus(Object *o);
         void updateMousePosition(float mouseScreenX, float mouseScreenY);
         void dispatch(unsigned const int type);
+        void setHeightMap(int *heightMap);
+        int* getHeightMap();
 
         static unsigned const int ON_MOUSE_LEFT_DOWN;
 
@@ -41,7 +43,8 @@ class World
         std::list<Light*>         lightList;
 
         Camera camera;
-        Pathfinder pathfinder;
+        Pathfinder pathfinder;        
+        int *heightMap;
 };
 
 #endif

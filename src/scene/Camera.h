@@ -17,7 +17,7 @@ class Camera
         Camera();
 
         void update(float time);
-        void draw(std::list<Object*> *objects, std::list<Light*> *lights);
+        void draw(std::list<Object*> *objects, std::list<Object*> *outlineObjects, std::list<Light*> *lights);
         void setFocus(Object *o);
 
         float getX();
@@ -28,7 +28,7 @@ class Camera
     private:
 
         void drawAll(std::list<Object*> *objects);
-        void outlineAll(std::list<Object*> *objects);
+        void outlineAll(std::list<Object*> *objects);        
         void drawAllShadows(std::list<Object*> *objects, Light *l);
         void updateAllShadows(std::list<Object*> *objects, Light *l);
         void translateObject(Object *o);

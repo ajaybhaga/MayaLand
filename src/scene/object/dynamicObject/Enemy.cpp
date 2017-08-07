@@ -50,3 +50,22 @@ void Enemy::update(float time)
 
     pastTime += time;
 }
+
+void Enemy::drawOutline()
+{
+    //glColor4f(0.9f, 0.9f, 0.9f, 0.7f);
+
+    glColor4f(0.f, 0.f, 0.f, 0.6f);
+
+    glLineWidth(0.9);
+    glBegin(GL_LINE_LOOP);
+    //shape.getTriangles().size()
+
+    // First two triangles are top face
+    for (unsigned int i = 0; i < 6; i ++)
+    {
+        shape.getTriangles()[i].setAllVertex();
+    }
+    glEnd();
+
+}

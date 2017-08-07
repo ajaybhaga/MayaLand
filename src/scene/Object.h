@@ -46,12 +46,6 @@ class Object
 
         Vector3 position;
 
-
-    private:
-
-        bool shadow;
-        bool dynamicGenerate;
-
         float height;
         float size;
 
@@ -59,7 +53,13 @@ class Object
 
         Polygon shape;
 
+        bool shadow;
+        bool dynamicGenerate;
         float r, g, b; // Object colour
+
+    private:
+
+
 };
 
 #endif

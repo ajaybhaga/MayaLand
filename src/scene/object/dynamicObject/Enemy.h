@@ -14,6 +14,7 @@ class Enemy : public DynamicObject
 
         virtual void draw();
         virtual void update(float time);
+        virtual void drawOutline();
 };
 #endif
 
