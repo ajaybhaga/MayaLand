@@ -45,6 +45,8 @@ void DynamicObject::move(float time)
             canMove = false;
         }
     }
+
+    drawPath();
 }
 
 void DynamicObject::resetDestination()
@@ -65,7 +67,22 @@ void DynamicObject::setPath(float x, float z)
     resetDestination();
     path = pathfinder->getPath(position.x, position.z, x, z, getSize());
     canMove = true;
+
+    lastPath = path;
+    std::cout << "SET PATH size=" << path.size() << std::endl;
 }
+
+void DynamicObject::drawPath()
+{
+    std::cout << "DRAW PATH size=" << path.size() << std::endl;
+    for (std::vector<Vector3*>::iterator i = path.begin(); i != path.end(); ++ i)
+    {
+        Vector3* v = (*i);
+        std::cout << "v->x=" << v->x << " v->y=" << v->x << " v->z=" << v->x << std::endl;
+        //std::vector<Vector3*> path;
+    }
+}
+
 
 bool DynamicObject::isCanMove()
 {

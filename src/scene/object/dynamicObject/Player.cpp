@@ -10,6 +10,11 @@ Player::Player(World *W) : DynamicObject(W, 30.f, true)
 
     position.x = 512.f;
     position.z = 512.f;
+
+    rotation.x = 0.0;
+    rotation.y = 0.0;
+    rotation.z = 0.0;
+
     setSize(64.f);
 }
 

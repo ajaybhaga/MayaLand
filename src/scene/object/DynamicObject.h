@@ -24,6 +24,7 @@ class DynamicObject : public Object
         void move(float time);
         void setDestination(Vector3 *d);
         void setPath(float x, float z);
+        void drawPath();
         void resetDestination();
 
 
@@ -37,6 +38,7 @@ class DynamicObject : public Object
     private:
 
         std::vector<Vector3*> path;
+        std::vector<Vector3*> lastPath;
 
         Pathfinder *pathfinder;
 
