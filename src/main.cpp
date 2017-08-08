@@ -115,7 +115,6 @@ int main()
        // Event processing
        sf::Event event;
 
-       bool mouseMove = false;
        sf::Vector2i mousePos;
 
        while (window.pollEvent(event))
@@ -133,17 +132,11 @@ int main()
                    break;
 
                case sf::Event::MouseButtonPressed:
+               case sf::Event::MouseButtonReleased:
+               case sf::Event::MouseMoved:
                    game.onEvent(&event);
                    mousePos = sf::Mouse::getPosition(window);
                    game.setMousePosition(mousePos.x, mousePos.y);
-                   break;
-
-               case sf::Event::MouseMoved:
-                   mouseMove = true;
-                   mousePos = sf::Mouse::getPosition(window);
-                   game.setMousePosition(mousePos.x, mousePos.y);
-                   //std::cout << "Mouse location: mousePos.x=" << mousePos.x << " mousePos.y=" << mousePos.y << std::endl;
-
                    break;
            }
        }

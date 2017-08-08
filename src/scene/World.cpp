@@ -3,6 +3,7 @@
 using namespace std;
 
 unsigned const int World::ON_MOUSE_LEFT_DOWN = 1;
+unsigned const int World::ON_MOUSE_LEFT_UP = 2;
 
 World::World()
 {
@@ -11,6 +12,10 @@ World::World()
 World::~World() {
     if (heightMap)
         delete heightMap;
+}
+
+Camera World::getCamera() {
+    return camera;
 }
 
 void World::draw()

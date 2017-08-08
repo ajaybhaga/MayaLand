@@ -19,6 +19,7 @@ public:
 
 protected:
     Vector3 rotation;
+    Vector3 anchor;
 
 private:
 

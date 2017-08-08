@@ -16,6 +16,22 @@ void Object::setDynamicGenerate() {
     dynamicGenerate = true;
 }
 
+void Object::setPoints(Vector3 v1, Vector3 v2) {
+
+    shape.clear();
+
+    p1 = Point(v1.x, v1.y, v1.z);
+    p2 = Point(v2.x, v1.y, v1.z);
+    p4 = Point(v1.x, v1.y, v2.z);
+    p3 = Point(v2.x, v2.y, v2.z);
+
+    // FACE TOP
+    shape.addTriangle(&p1, &p2, &p3);
+    shape.addTriangle(&p3, &p4, &p1);
+
+    shape.updateConnectivity();
+}
+
 void Object::setSize(float s)
 {
     size = s;

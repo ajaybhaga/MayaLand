@@ -23,6 +23,8 @@ class Game
         void onEvent(sf::Event *event);
         void setMousePosition(unsigned int x, unsigned int y);
 
+    protected:
+        bool clicked;
 
     private:
 

@@ -25,6 +25,7 @@ void Game::init()
     Cursor *c = new Cursor(&world);
     world.addDynamicObject(c);
 
+
     /*
     for (unsigned int i = 0; i < 20; i ++)
     {
@@ -50,13 +51,13 @@ void Game::init()
         }
     }
 
-    for (int r = 0; r < 50; r++) {
+    for (int r = 0; r < 20; r++) {
         n = rand () % Conf::WORLD_WIDTH;
         x = n/Conf::TILE_SIZE;
         n = rand () % Conf::WORLD_HEIGHT;
         y = n/Conf::TILE_SIZE;
         int m = y*mapWidth + x;
-        heightMap[m] = rand() % 128;
+        heightMap[m] = rand() % 400;
     }
 
     // Set world height map
@@ -134,8 +135,9 @@ void Game::onEvent(Event *event)
     // MOUSE
     if (sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
         world.dispatch(World::ON_MOUSE_LEFT_DOWN);
+    } else {
+        world.dispatch(World::ON_MOUSE_LEFT_UP);
     }
-
 
     // RESIZE
     if (event->type == sf::Event::Resized)

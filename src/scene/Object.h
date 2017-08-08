@@ -24,6 +24,7 @@ class Object
         void setDynamicGenerate();
         void generateColour();
         void setSize(float s);
+        void setPoints(Vector3 v1, Vector3 v2);
         void setPosition(float x, float y, float z);
         void updateShadows(Light *l);
         void drawShadow(Light *l);

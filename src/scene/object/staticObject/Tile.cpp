@@ -9,7 +9,7 @@
  *
  */
 
-Tile::Tile(World *W, float x, float y, float z, float h1, float h2, float h3, float h4) : StaticObject(W, h1, true, true)
+Tile::Tile(World *W, float x, float y, float z, float h1, float h2, float h3, float h4) : StaticObject(W, h1, ((h1+h2+h3+h4/4.0f) == 0.0), true)
 {
     position.x = x;
     position.y = y;

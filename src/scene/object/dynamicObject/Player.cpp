@@ -51,7 +51,7 @@ void Player::draw()
         //std::cout << "gridX=" << gridX << " gridY=" << gridY << " m=" << m << std::endl;
     }
 
-    rotation.y += 0.08f;
+   // rotation.y += 0.08f;
 
     glPushMatrix();
     glRotatef(rotation.x, 1.f, 0.f, 0.f);

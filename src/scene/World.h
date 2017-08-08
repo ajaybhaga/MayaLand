@@ -30,14 +30,16 @@ class World
         void dispatch(unsigned const int type);
         void setHeightMap(int *heightMap);
         int* getHeightMap();
+        Camera getCamera();
 
         static unsigned const int ON_MOUSE_LEFT_DOWN;
+        static unsigned const int ON_MOUSE_LEFT_UP;
 
         float mouseX;
         float mouseY;
 
 
-    private:
+    protected:
 
         std::list<DynamicObject*> dynamicObjectList;
         std::list<StaticObject*>  staticObjectList;
